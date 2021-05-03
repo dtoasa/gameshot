@@ -1,0 +1,177 @@
+@charset "UTF-8";
+*{  /*   (*)Toddos las etiquetas ,identificadores y clases */
+    margin: 0;
+    padding: 0;
+    }
+
+
+/*ESTILO INDEX*/
+#sidebar{
+    position: fixed ;
+    width:180px;
+    height:100%;
+    background:#BFC9CA ;  
+    left: 1px;     
+}
+#sidebar.active{
+    left: 0;
+}
+
+#container{    
+    width: 1160px;  /*ancho de la pagina*/
+    height:800px;   /*porte de la pagina*/
+    background: #283747;
+   /* margin: 15px auto;*/
+   margin-left:180px;
+   margin-top: -14px;
+     }
+     #sidebar ul li {
+         color:rgba(230,230,230,.9);
+         text-align: center;
+         padding: 15px 10px;
+         list-style: none;
+         border-bottom: 1px solid rgba(100,100,100,.3);
+     }
+     .logo{
+         border-radius: 50%;  
+         display: block;
+         margin: 0 auto;
+         box-shadow: 0 0 80px blue; /* x y PX(ancho) color*/
+         }
+  #sidebar .menu-bar {
+             position: absolute;
+             left: 230px;
+             top: 20px; 
+             cursor: pointer;
+         }      
+         /*#sidebar .menu-bar span{
+             
+             display: block;
+             width: 30px;
+             text-align: center;
+             font-size: 20px;
+             border: 1px solid #000;    
+             margin-left:-220px;
+             margin-top: -10px;
+         } */    
+         #sidebar li:hover {
+             transition: -webkit-transform .3s;
+             background: #0E6655;
+             border-left: 5px solid #eee;
+             -webkit-transform: scale(1.1);
+         }
+header{
+    width:1100px;
+    height: 300px;     
+    /*background: #F5B041;*/
+    margin: 15px auto;
+    position: static;
+    background: url(img/16218.jpg);
+}
+
+
+#principal2 {
+    width:760px;
+    height: 360px;
+    background: chartreuse;
+    margin: 30px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    float: left;    
+}
+
+
+#principal2  h1{
+      font-size:1.9em;
+      font-family: veranda;
+      margin-left: 150px;
+      margin-top: 150px;
+      margin: -10px auto;
+      padding: 15px;
+      box-sizing: border-box;
+            
+}
+
+.section{
+background:#0EFAFA;
+height:350px;
+width:750px;
+margin: 0 auto;
+display:block;
+overflow:auto;
+margin-left: -10px;
+margin-top: -10px;
+}
+
+.discord{
+background:#BFC9CA;
+height:295px;
+width:380px;
+margin: 0 auto;
+display:block;
+overflow:auto;
+margin-left: 10px;
+margin-top: 1px;
+}
+.telegram{
+background:#BFC9CA;
+height:295px;
+width:380px;
+margin: 0 auto;
+display:block;
+overflow:auto;
+margin-left:450px;
+margin-top: -300px;
+}
+
+
+#principal3{
+    width:400px;
+    height:360px;
+    background: orange;
+    margin: 30px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    float: left;
+}
+#principal3 h1{
+      font-size:2.9em;
+      font-family: veranda;
+}
+footer{
+    width:100%;
+    height: 100px;
+    background:#0EFAFA ;
+    float: left;
+}
+#pie h1{
+      font-size:2.9em;
+      font-family: veranda;
+      margin-left:250px;
+      margin-top: 20px;
+}
+
+/*Boton Watsapp*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
