@@ -21,5 +21,5 @@ function cycleBackgrounds(interval) {
   }, interval)
 }
 document.addEventListener("DOMContentLoaded", function() {
-  cycleBackgrounds(1000);
+  cycleBackgrounds(2300);
 });
