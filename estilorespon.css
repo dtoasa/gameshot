@@ -101,7 +101,7 @@
          
                 
 
-@media  (max-width:600px) {
+@media screen and (max-width:600px) {
   /* For mobile phones: */
   .menu, .main, .right {
     width:100%;
