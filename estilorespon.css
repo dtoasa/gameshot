@@ -51,9 +51,9 @@
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-  font-size:30px;
+        font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+        z-index:100;
 }
 .float:hover {
 	text-decoration: none;
@@ -133,10 +133,15 @@ header figure{
     float:right;
     margin-top: 10px;
     margin-right: 40%;
-    box-shadow: 0 0 80px greenyellow; /* x y PX(ancho) color*/  
+    box-shadow: 0 0 80px greenyellow; /* x y PX(ancho) color*/    
     
 }               
-         
-  
-  
-}
+h1 {
+    font-size:50px;
+} 
+
+p {
+    font-size:40px;
+} 
+
+  }
