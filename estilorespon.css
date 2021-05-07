@@ -98,11 +98,7 @@
          margin: 0 auto;
          box-shadow: 0 0 80px blue; /* x y PX(ancho) color*/
          }
-/* For mobile phones: */
-* {
-  width: 100%;
-}         
-                
+      
 
 @media only screen and (max-width:600px) {
   /* For mobile phones: */
