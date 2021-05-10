@@ -100,7 +100,7 @@
          }
       
 
-@media (min-width: 600px) 
+@media (min-width: 320px) 
  {
   /* For mobile phones: */
   .menu, .main, .right {
