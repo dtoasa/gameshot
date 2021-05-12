@@ -109,7 +109,7 @@
          
       
 
-@media (min-width: 324px) and (max-width: 1024px)
+@media (min-width: 320px) and (max-width: 1024px)
          {
   /* For mobile phones: */
   .menu, .main, .right {
@@ -122,6 +122,24 @@
   position: relative;
   width: 100%;
 }
+
+
+.container2 .slide {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;/*imagen ocupe toda la caja*/
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity 1s ease-in-out;
+  width: 100%;
+  z-index: 1; 
+}
+
+
+
 
 .logo{
          width: 150px;
