@@ -109,7 +109,7 @@
          
       
 
-@media (min-width: 320px) and (max-width: 1024px)
+@media (min-width: 800px) and (max-width: 1024px)
          {
   /* For mobile phones: */
   .menu, .main, .right {
