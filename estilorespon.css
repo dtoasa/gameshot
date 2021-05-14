@@ -8,6 +8,21 @@
     * {
   box-sizing: border-box;
 }
+/*LOGO*/
+header figure{
+    width: 160px;
+    height: 160px;
+    background: url(img/logo.png);
+    border-radius: 100px;
+    float:right;
+    margin-top: 200px;
+    margin-right: 85%;
+    box-shadow: 0 0 80px greenyellow; /* x y PX(ancho) color*/      
+}  
+
+
+
+
 .menu {
   float:left;
   width:20%;
@@ -68,7 +83,7 @@
 
 /*SLIDERSHOW*/
 .container2{
-  height: 250px; /* It can be anything you need */
+  height: 500px; /* It can be anything you need */
   position: relative;
   width: 100%;
 }
@@ -155,7 +170,9 @@ header figure{
     float:right;
     margin-top: 10px;
     margin-right: 40%;
-    box-shadow: 0 0 80px greenyellow; /* x y PX(ancho) color*/    
+    box-shadow: 0 0 80px greenyellow; /* x y PX(ancho) color*/  
+    
+    
     
 }               
 h1 {
