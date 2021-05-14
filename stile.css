@@ -26,10 +26,11 @@ and open the template in the editor.
 header{
     width: 1000px;
     height:250px;   
-    background: url(16218.jpg);
+    background: url(GAMESHOT.jpg);
     margin: 30px auto;
-    position: relative; /* relative para que se cuadren los demas elementos
-                        con el header*/
+    background-size: cover;
+    position: relative; /* relative para que se cuadren los demas elementos con el header*/
+   
 }   
 /*LOGO*/
 header figure{
