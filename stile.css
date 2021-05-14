@@ -40,8 +40,8 @@ header figure{
     background: url(1004.png);
     border-radius: 100px;
     float:right;
-    margin-top: 50px;
-    margin-right: 460px;
+    margin-top: 20px;
+    margin-right: 800px;
     box-shadow: 0 0 80px greenyellow; /* x y PX(ancho) color*/
     
 }
