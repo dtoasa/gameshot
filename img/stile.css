@@ -1,0 +1,394 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/03/2021, 11:32:24
+    Author     : david
+*/
+
+@charset "UTF-8";
+/*CSS ESTILO DE LA PAGINA*/
+*{  /*   (*)Toddos las etiquetas ,identificadores y clases */
+    margin: 0;
+    padding: 0;
+    }
+
+#container{
+    width: 1000px;  /*ancho de la pagina*/
+    height:700px;   /*porte de la pagina*/
+    background: orange;
+    margin: 30px auto;
+}
+
+/*Entre los 3 debe dar 700px de alto*/
+header{
+    width: 1000px;
+    height:250px;   
+    background: url(GAMESHOT.jpg);
+    margin: 30px auto;
+    background-size: cover;
+    position: relative; /* relative para que se cuadren los demas elementos con el header*/
+   
+}   
+/*LOGO*/
+header figure{
+    width: 150px;
+    height: 150px;
+    background: url(1004.png);
+    border-radius: 100px;
+    float:right;
+    margin-top: 50px;
+    margin-right: 460px;
+    box-shadow: 0 0 80px greenyellow; /* x y PX(ancho) color*/
+    
+}
+
+header h1{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    font-family: veranda;
+    color:aqua;
+    text-shadow: 5px 5px 10px rgba(0,5,0,0.5)  
+        
+}
+nav{
+    width: 600px;
+    height: 50px;
+    background: rgba(0,0,255,0.7);
+    /*margin: auto;*/
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    /*top: 250px;*/
+    border-radius:  20px 20px 0 0; /*las 4 esquinas del menu*/
+    text-align: center;
+    border-right: solid 1px #fff;
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    width: 25%;
+    line-height: 50px;    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;  
+    
+}
+header nav ul li:last-child a{ /*quitamos el ultimo borde de la lista */
+        border-right: none;        
+}
+header nav ul li :hover{
+            color :aquamarine;
+        }     
+
+section{
+    width: 1000px;
+    height:400px;   
+    background: #F2D7D5;
+    margin: 30px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+footer{
+    width: 1000px;
+    height:50px;   
+    background: blue;
+    margin: 30px auto;
+    position: relative;
+  }
+  footer h5{
+      text-align: center;
+      font-family: veranda;
+      color:azure;
+      line-height: 50px; /*como margen de arriba de la
+                         letra del footer 50 pixeles*/
+  }
+  .Redes{
+      width: 30px;
+      height: 30px;
+      background: yellow;
+      position: absolute;
+      top: 10px;      
+  }
+  #r1{
+      right: 10px; 
+      background:url(Recurso8.jpg);
+      border-radius: 15px;    
+      
+  }
+  #r2{
+      right: 50px;      
+      background:url(Recurso1.jpg);
+      border-radius: 15px
+  }
+  /*ESTIOS INDEX*/
+  #principal{
+      width: 670px;
+      height: 360px;
+      /*background: orange;  */ 
+      float: left;
+  }
+  #principal h1{
+      font-size:2.5em;
+      font-family: veranda;
+  }
+  #principal h5{
+      font-size:0.75em;
+      font-family: veranda;    
+      margin-left: 60px;
+  }
+  
+  #principal p{
+      font-size:0.8em;
+      font-family: veranda;    
+      margin-top: 20px;
+  }
+  
+  aside{
+      width: 300px;
+      height: 360px;
+      background: url(city.jpg); 
+      background-size: cover;/*imagen ocupe toda la caja*/
+      background-position: center;/*centra la imagen en la caja*/
+      float: left;
+     }
+     /*Fin de index*/
+     
+     /*Estilo pagina servivios*/
+     section h1{
+         font-size: 2.5em;
+         font-family: veranda;
+         
+     }
+     section ul{
+         margin-top: 20px;                  
+     }
+     section ul li{
+         display: block;
+         width: 100%;
+     }
+     section ul li a{
+         text-decoration: none;
+         display: block;
+         /*background: red;*/
+         margin-bottom: 10px;   
+        /* font-size: 0.8em;/*tamanio de la fuente para que entre en la caja*/
+         color: grey;  
+         opacity: .5;
+     }        
+     section ul li a:hover{
+         opacity: 1;
+     }
+     
+     .fservicios{
+         width: 70px;
+         height: 70px;
+         background: silver;
+         border: solid 2px #000;
+         display: inline-block;
+         vertical-align: top;
+     }  
+     #fservicios1{
+         background: url(#);
+         background-size: cover;
+         background-position: center;
+     }
+     #fservicios1{
+         background: url(Jesus.jpg);
+         background-size: cover;
+         background-position: center;
+     }
+     #fservicios2{
+         background: url(city.jpg);
+         background-size: cover;
+         background-position: center;
+     }
+     #fservicios3{
+         background: url(cas.jpg);
+         background-size: cover;
+         background-position: center;
+     }
+      .contenido-s{
+         width: 890px;
+         height: 70px;
+         display: inline-block;
+         vertical-align: top;
+      }
+      .contenido-s h3{
+          margin-left: 10px;          
+      }
+      .contenido-s p{
+          margin-left: 10px; 
+          font: veranda;
+          font-size: .8em; /*tamanio de la fuente para que entre en la caja*/
+      }
+      /*fin estilo pg servicio*/
+    
+      
+      /*inicio de galeria*/
+      .img-p{
+          width: 150px;
+          height: 150px;
+          background: blue;
+          border: solid 5px aqua;
+          float: left;
+          margin-left: 10px;
+          box-sizing: border-box;
+          margin-top: 10px;
+          transition: -webkit-transform .3s;
+          position: relative;
+      }
+      .img-p:hover{
+         /* transform: scale(1.2); es lo normal, pero para apple es con -webkit */
+          -webkit-transform: scale(1.4);/*para el efecto funcione en safary apple*/
+      }
+      .img-p p{
+          background: rgba(255,187,0,0.5) ;
+          font-family: veranda;
+          font-size: 0.7em;
+          position: absolute;
+          bottom: 0;
+           width: 140px;
+          height: 40px;
+          padding: 5px;
+          box-sizing: border-box;
+          text-align: center;
+          color: #fff;
+      }
+      #imgp1{
+          background: url(img/marco.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp2{
+          background: url(img/gye.png);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp3{
+          background: url(img/4k.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp4{
+          background: url(img/fami.png);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp5{
+          background: url(img/joel.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp6{
+          background: url(img/mm2.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp7{
+          background: url(img/mm.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp8{
+          background: url(img/ma.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp9{
+          background: url(img/fam.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp10{
+          background: url(img/ps5.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp11{
+          background: url(img/dav1.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+      #imgp12{
+          background: url(img/hp.jpg);
+          background-size: cover;
+          background-position: center;
+      }
+      /*Fin pagina galeria paginayu.html*/
+      
+     /*inicio contactenos contactos.html*/           
+      #contact-left{
+           width: 485px;
+           height: 320px;
+           /*background: greenyellow; */   
+           float: left;
+      }
+      #contact-left p{
+          width: 450px;
+          font-family: veranda;
+          font-size: .8em;
+          margin-top: 10px;
+          text-align: justify;          
+      }
+      #mapa{
+           width: 450px;
+           height: 204px;
+           /*background: yellow;*/
+           margin-top: 15px;
+      }
+      /*********/
+      #contact-right{
+          width: 485px;
+           height: 320px;
+           background: gray;    
+           float: left; 
+           padding-left: 20px;
+           box-sizing: border-box; 
+           
+                      
+      }      
+      .campt{            /*.campt es una clase */
+          display: block; 
+          font-family: veranda;
+          font-size: .9em;
+          margin-top: 5px;          
+      }
+      input{
+          margin-bottom: 10px;
+          width: 430px;
+           height: 30px;
+           background: #B1B1B1;
+           border:none;
+           color: #fff;
+           font-size: .9em;      
+         }
+         textarea{
+           width: 430px;
+           height: 50px;
+           background: #B1B1B1;
+           border:none;
+         }
+         .boton{
+             width: 120px;
+             height: 30px;
+             float: right;
+             margin-top: 10px;
+             margin-right: 35px;
+             background: #5DA9F0;             
+         }
+         .boton:hover{
+             background: orange;
+             cursor: pointer;
+             
+         }      /*FIN contactenos contactos.html*/
+      
+  
+  
