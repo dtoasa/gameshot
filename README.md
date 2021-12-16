@@ -1,2 +1,0 @@
-# gameshot
-GAMES
